@@ -1,0 +1,11 @@
+---
+packages:
+  - fzf
+  - git
+  - mdadm  # Manage multi-disk arrays for software RAID.
+  - ncdu
+  - ranger
+  - stow
+  - tmux
+  - vim
+  - zsh
