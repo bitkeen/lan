@@ -1,9 +1,11 @@
 ---
 packages:
   - fzf
+  - gdisk  # GPT fdisk text-mode partitioning tool.
   - git
   - mdadm  # Manage multi-disk arrays for software RAID.
   - ncdu
+  - nfs-kernel-server  # NFS server.
   - ranger
   - stow
   - tmux
