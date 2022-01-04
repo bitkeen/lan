@@ -4,4 +4,5 @@
   become: yes
   gather_facts: no
   roles:
-    - apt
+    - {role: apt, tags: apt}
+    - {role: docker-compose, tags: docker-compose}
