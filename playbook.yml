@@ -6,3 +6,4 @@
   roles:
     - {role: apt, tags: apt}
     - {role: docker-compose, tags: docker-compose}
+    - {role: misc, tags: misc}

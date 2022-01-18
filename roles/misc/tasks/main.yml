@@ -1,0 +1,5 @@
+---
+- name: remove Debian banner which is printed upon login
+  file:
+    state: absent
+    path: /etc/motd
